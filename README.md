@@ -96,6 +96,8 @@ If you want to use the original model in our paper, please see [PaperModel.md](P
     # We use face detection and face restoration helper in the facexlib package
     pip install facexlib
 
+    pip uninstall basicsr
+    
     pip install -r requirements.txt
     python setup.py develop
 
