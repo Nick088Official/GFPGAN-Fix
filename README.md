@@ -19,8 +19,9 @@
 </div>
 
 1. :boom: **Updated** online demo: [![Replicate](https://img.shields.io/static/v1?label=Demo&message=Replicate&color=blue)](https://replicate.com/tencentarc/gfpgan). Here is the [backup](https://replicate.com/xinntao/gfpgan).
-1. :boom: **Updated** online demo: [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/Xintao/GFPGAN)
-1. [Colab Demo](https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference.ipynb) for GFPGAN <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+2. :boom: **Updated** online demo: [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/Xintao/GFPGAN)
+3. :boom: **Updated** Colab NO UI Demo for GFPGAN <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+4. :boom: **Updated** Colab UI Demo for GFPGAN (WARNING: COULD RISK YOUR COLAB FREE TIER ACC) <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference_UI.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 
 <!-- 3. Online demo: [Replicate.ai](https://replicate.com/xinntao/gfpgan) (may need to sign in, return the whole image)
 4. Online demo: [Baseten.co](https://app.baseten.co/applications/Q04Lz0d/operator_views/8qZG6Bg) (backed by GPU, returns the whole image)
@@ -34,7 +35,7 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 :question: Frequently Asked Questions can be found in [FAQ.md](FAQ.md).
 
 :triangular_flag_on_post: **Updates**
-- :white_check_mark: Fixed and Updated the Google Colab
+- :white_check_mark: Fixed and Updated the Google Colab and added a UI version and also video inference
 - :white_check_mark: Fixed basicr to new-basicsr in requirements.txt (from Nick088) to repair torchvision problem
 - :white_check_mark: Add [RestoreFormer](https://github.com/wzhouxiff/RestoreFormer) inference codes.
 - :white_check_mark: Add [V1.4 model](https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth), which produces slightly more details and better identity than V1.3.
