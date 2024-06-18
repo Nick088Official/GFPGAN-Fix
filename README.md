@@ -18,10 +18,6 @@
 [![Publish-pip](https://github.com/TencentARC/GFPGAN/actions/workflows/publish-pip.yml/badge.svg)](https://github.com/TencentARC/GFPGAN/blob/master/.github/workflows/publish-pip.yml)
 </div>
 
-1. :boom: **Updated** online demo: [![Replicate](https://img.shields.io/static/v1?label=Demo&message=Replicate&color=blue)](https://replicate.com/tencentarc/gfpgan). Here is the [backup](https://replicate.com/xinntao/gfpgan).
-2. :boom: **Updated** online demo: [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/Xintao/GFPGAN)
-3. :boom: **Updated** Colab NO UI Demo for GFPGAN <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
-4. :boom: **Updated** Colab UI Demo for GFPGAN (WARNING: COULD RISK YOUR COLAB FREE TIER ACC) <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference_UI.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 
 <!-- 3. Online demo: [Replicate.ai](https://replicate.com/xinntao/gfpgan) (may need to sign in, return the whole image)
 4. Online demo: [Baseten.co](https://app.baseten.co/applications/Q04Lz0d/operator_views/8qZG6Bg) (backed by GPU, returns the whole image)
@@ -68,7 +64,9 @@ Other recommended projects:<br>
 
 ---
 
-## :wrench: Dependencies and Installation
+## Local Usage
+
+### :wrench: Dependencies and Installation
 
 - Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch >= 1.7](https://pytorch.org/)
@@ -108,7 +106,7 @@ If you want to use the original model in our paper, please see [PaperModel.md](P
     pip install realesrgan
     ```
 
-## :zap: Quick Inference
+### :zap: Quick Inference
 
 We take the v1.3 version for an example. More models can be found [here](#european_castle-model-zoo).
 
@@ -140,9 +138,32 @@ Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [o
   -ext                 Image extension. Options: auto | jpg | png, auto means using the same extension as inputs. Default: auto
 ```
 
-If you want to use the original model in our paper, please see [PaperModel.md](PaperModel.md) for installation and inference.
+## Online Usage
+
+### Google Colabs
+
+- Colab NO UI <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+
+- Colab UI **(WARNING: COULD RISK YOUR COLAB FREE TIER ACC)** <a href="https://colab.research.google.com/github/Nick088Official/GFPGAN-Fix/blob/master/GFPGAN_fix_inference_UI.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+
+### Hugging Face Spaces
+
+- Original A10 GPU Hugging Face Space [![Hugging Face Space](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/Xintao/GFPGAN) (Can't be duplicated, as it's running on an older instance where there were no errors.)
+
+- Fixed ZeroGPU (A100 GPU Currently) Hugging Face Space [![Hugging Face Space](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/Xintao/GFPGAN)
+
+### Replicate
+
+(Can't test if they work tho..)
+
+- Original Replicate [![Replicate](https://img.shields.io/static/v1?label=Demo&message=Replicate&color=blue)](https://replicate.com/tencentarc/gfpgan)
+  
+- Here is the Original Replicate [backup](https://replicate.com/xinntao/gfpgan).
+
 
 ## :european_castle: Model Zoo
+
+If you want to use the original model in our paper, please see [PaperModel.md](PaperModel.md) for installation and inference.
 
 | Version | Model Name  | Description |
 | :---: | :---:        |     :---:      |
